@@ -86,5 +86,15 @@ void quicksort(int low,int high)
 
 void display ()
 {
+    cout<< "\n--------------\n";
+    cout << "Sorted Array\n";
+    cout<< "-------------\n";
 
+    for (int i = 0; i < n; i++)
+    {
+        cout << arr[i] << " ";
+    }
+
+    cout << "\n\nNumber of Comparisons : "<< cmp_count << endl;
+    cout << "Number of Data Movements : " << mov_count << endl;
 }
