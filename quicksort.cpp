@@ -72,4 +72,9 @@ void quicksort(int low,int high)
             swap(i, j);
         }
     }
+
+    if (low < j)
+    {
+        swap(low, j);
+    }
 }
