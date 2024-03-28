@@ -101,5 +101,20 @@ void display ()
 
 int main ()
 {
-    
+    char ch;
+
+    do {
+        input();
+        quicksort(0, n - 1);
+        display ();
+        cout << "\n\nDo You Want to continue ? (y/n) : ";
+        cin >> ch;
+        if (ch == 'n' || ch == 'N' )
+            break;
+
+        system ("Pause");
+        system ("cls");
+    }while (true);
+
+    return 0;
 }
