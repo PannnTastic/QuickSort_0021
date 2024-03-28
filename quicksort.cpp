@@ -38,3 +38,8 @@ void swap (int x, int y)
     arr[y] = temp;
     mov_count++;
 }
+
+void quicksort(int low,int high)
+{
+    
+}
