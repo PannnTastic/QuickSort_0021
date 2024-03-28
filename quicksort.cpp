@@ -79,4 +79,7 @@ void quicksort(int low,int high)
     }
 
     quicksort(low, j - 1);
+
+    quicksort(j + 1, high);
+    
 }
