@@ -77,4 +77,6 @@ void quicksort(int low,int high)
     {
         swap(low, j);
     }
+
+    quicksort(low, j - 1);
 }
