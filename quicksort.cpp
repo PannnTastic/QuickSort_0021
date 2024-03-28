@@ -41,5 +41,6 @@ void swap (int x, int y)
 
 void quicksort(int low,int high)
 {
-    
+    int temp;
+    int pivot, i, j;
 }
