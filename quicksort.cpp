@@ -48,5 +48,5 @@ void quicksort(int low,int high)
         return;
     }
 
-    
+    pivot = arr[low];
 }
