@@ -51,4 +51,13 @@ void quicksort(int low,int high)
     pivot = arr[low];
     i = low + 1;
     j = high;
+
+    while (i <= j)
+    {
+        while ((arr[i] <= pivot)&& (j >= low))
+        {
+            i++;
+            cmp_count++;
+        }
+    }
 }
