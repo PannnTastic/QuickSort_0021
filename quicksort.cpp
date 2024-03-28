@@ -19,6 +19,14 @@ void input(){
         cout << "\nMaksimum Array Hanya 20 Elemen\n";
     }
 
-    
+    cout << "\n------------\n";
+    cout << "Enter Array Element\n";
+    cout << "-------------\n";
+
+    for (int i = 0; i < n; i++)
+    {
+        cout << "<" << (i + 1) << ">";
+        cin >> arr[i];
+    }
 
 }
